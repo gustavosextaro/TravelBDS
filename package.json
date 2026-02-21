@@ -1,0 +1,17 @@
+{
+	"name": "travelbds",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler deploy",
+		"dev": "wrangler dev --test-scheduled",
+		"start": "wrangler dev --test-scheduled"
+	},
+	"devDependencies": {
+		"wrangler": "^4.22.0"
+	},
+	"dependencies": {
+		"@juit/qrcode": "^1.0.47",
+		"qrcode": "^1.5.4"
+	}
+}

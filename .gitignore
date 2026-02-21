@@ -1,0 +1,23 @@
+# Cloudflare Workers / Wrangler
+node_modules/
+.wrangler/
+dist/
+
+# env
+.env
+.env.*
+*.vars
+
+# macOS
+__MACOSX/
+.DS_Store
+
+# zip files (images e themes que não precisam de versionamento)
+product_images.zip
+travelbds-shopify-theme.zip
+travelbds-shopify-theme-v2.zip
+travelbds-shopify-theme-v3.zip
+
+# logs
+wrangler.log
+*.log
